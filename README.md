@@ -1,5 +1,5 @@
 # Index of Python projects
-I wrote a bunch of code to automate boring tasks like data entry, updating spreadsheets, scraping data from PDF reports and Excel reports with weird formatting that wouldn't fit well in a pandas DataFrame. **I used this in some jobs, and because of that, I created mock-up data to post here as an example. I also changed variable names and other aspects of the code to preserve the real data, so the code could be a bit messy.**
+I wrote a bunch of code to automate boring tasks like data entry, updating spreadsheets, scraping data from PDF reports and Excel reports with weird formatting that wouldn't fit well in a pandas DataFrame. **I used this in some jobs, and because of that, I created mock-up data to post here as an example. I also changed variable names and other aspects of the code to preserve the real data, so the code could be a bit messy and hard to understand.**
 
 ## [Excel Generator](https://github.com/campos-Allan/excel_generator) 
 Basic script that picks a spreadsheet model based on the month in question, changes a few cells to update the queries and then saves this spreadsheet with specific name formatting. 
