@@ -27,6 +27,6 @@ I developed this program to automate a repetitive task of retrieving values dail
 **Tools used:** Pandas, Openpyxl, Tabula, Tkinter, PyAutoGUI, PyPDF.
 
 ## [Scraping Model](https://github.com/campos-Allan/scraping_model)
-Based on all the previous code, I created this general clean model to scrape data from PDF and Excel files to show in an easy-to-understand example YouTube video.
+Based on all the previous code, I created this general clean model to scrape data from PDF and Excel files.
 
 **Tools used:** Pandas, Openpyxl, Tabula.
