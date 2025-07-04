@@ -1,7 +1,7 @@
 # Index of Python projects
 I wrote a bunch of code to automate boring tasks like data entry, updating spreadsheets, scraping data from PDF reports and Excel reports with weird formatting that wouldn't fit well in a pandas DataFrame. 
 
-## [Report Generator](https://github.com/campos-Allan/report-generator) 
+## [Report Generator](https://github.com/campos-Allan/report_generator) 
 Is a Python-based solution that eliminates the tedious manual process of managing Excel workbooks with external data connections. The tool automatically opens multiple Excel files containing Power Query queries, intelligently monitors CPU usage to detect when data refreshes are complete, exports specified worksheets to timestamped PDF files, and closes everything cleanly without any user intervention. This automation reduces manual reporting tasks from approximately one hour to just 15 minutes, making it ideal for corporate environments that regularly generate reports from Excel dashboards connected to external data sources. The solution requires no VBA code or macros, works seamlessly with Windows and Excel installations, and provides reliable, error-free report generation for logistics, operations, and other data-intensive workflows.
 
 ## [Excel Generator](https://github.com/campos-Allan/excel_generator) 
