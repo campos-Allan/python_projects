@@ -8,20 +8,15 @@ Designed for corporate environments that regularly generate reports from Excel d
 
 The solution requires no VBA or macros, works seamlessly on Windows with Excel installed, and provides reliable, error-free report generation and communication. It’s ideal for logistics, operations, and other data-intensive workflows that benefit from automated refresh, export, and visual reporting integration.
 
-## [Excel Generator](https://github.com/campos-Allan/excel_generator) 
-Basic script that picks a spreadsheet model based on the month in question, changes a few cells to update the queries and then saves this spreadsheet with specific name formatting. 
+## [Sheet Generator](https://github.com/campos-Allan/sheet_generator) 
+This project automates the weekly preparation of Excel reports by copying the most recent file, renaming it for the upcoming week, and updating key cells with new dates and labels. It also refreshes all data connections and saves the updated file, eliminating the need for manual intervention in recurring reporting tasks.
 
-**Tools used:** Pywin32.
+Ideal for business dashboards and regular reporting cycles, this script ensures consistency, saves time, and reduces errors. Simply configure your source and destination folders, and let the automation handle the rest.
 
 ## [Easy Info](https://github.com/campos-Allan/easy_info) 
 A rudimentary system to extract about 300 data points from scrambled images, which needed to be manually transferred to 10 spreadsheets with different formatations. I automated the process to input the data once and format it correctly in each spreadsheet. Over time, I updated the system as most of the data was made available in a spreadsheets instead of structureless images, speeding up the process from a 3 day data entry process, to 3 minutes. I haven't update the code here with this last change.
 
 **Tools used:** Openpyxl.
-
-## [Excel Updater](https://github.com/campos-Allan/excel_updater) 
-This code opens a spreadsheet, updates the queries in it, retrieves scrambled data from a 'realized' sheet, and cross-references it with 'planned' data from other spreadsheets in a sheet that shows the final result of this data cross-checking.
-
-**Tools used:** Pywin32.
 
 ## [Master Scraper](https://github.com/campos-Allan/master_scraper)
 I developed this program to automate a repetitive task of retrieving values daily from 5 different PDF files and 5 Excel spreadsheets, and then formatting everything in a specific way to be inserted into a large shared Excel spreadsheet. 
